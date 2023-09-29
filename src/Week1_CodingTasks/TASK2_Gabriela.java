@@ -1,6 +1,6 @@
 package Week1_CodingTasks;
 
-public class TASK1_Gabriela {
+public class TASK2_Gabriela {
 
     // Write a method that can divide two numbers without using division operator
 
