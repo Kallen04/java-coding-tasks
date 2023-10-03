@@ -2,7 +2,7 @@ package Week2_CodingTasks;
 
 import java.util.Scanner;
 
-public class printConsecutiveNumberTask3 {
+public class TASK3_Zee {
 
     public static void main(String[] args) {
 
