@@ -32,14 +32,13 @@ public class TASK3_Zee {
 
     public static void printConsecutiveNumber(int num){
 
-        // declare the word that can divisible by 2,3 and 5
-        String divisibleBy2 = "Codility";
-        String divisibleBy3 = "Test";
-        String divisibleBy5 = "Coders";
-
+//        // declare the word that can divisible by 2,3 and 5
+//        String divisibleBy2 = "Codility";
+//        String divisibleBy3 = "Test";
+//        String divisibleBy5 = "Coders";
         for (int i = 1; i <= num ; i++) {    //iterate from 1 to num
 
-            if((i%2==0) && (i%3==0) && (i%5==0)) {   //the number is divisible by 2,3 and 5
+          /*  if((i%2==0) && (i%3==0) && (i%5==0)) {   //the number is divisible by 2,3 and 5
                 System.out.println(divisibleBy2+divisibleBy3+divisibleBy5); //concatenation 3 word together
 
             } else if ((i%2==0) && (i%3==0)) {   //the number is divisible by 2,3
@@ -63,6 +62,28 @@ public class TASK3_Zee {
             } else {
                 System.out.println(i);
             }
+
+           */
+            if(i%2 == 0 || i%3 == 0 || i%5 == 0){ // if num can divisible by 2 or 3 or 5
+
+                if(i%2 == 0){
+                    System.out.print("Codility");
+                }
+                if(i%3 == 0){
+                    System.out.print("Test");
+                }
+                if(i%5 == 0){
+                    System.out.print("Coders");
+                }
+                System.out.println(); // after checked all condition print next line
+
+            }  else {
+                System.out.println(i);   // the number is not divisible by 2,3 and 5
+            }
+
+
+
+
         }
 
 
