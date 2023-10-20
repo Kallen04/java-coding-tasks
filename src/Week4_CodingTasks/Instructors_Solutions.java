@@ -1,4 +1,4 @@
-package Week4_CodingSolutions;
+package Week4_CodingTasks;
 
 public class Instructors_Solutions {
 }
