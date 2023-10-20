@@ -38,7 +38,7 @@ public class TASK1_Ken {
 
             if(reminderCount == 2){
                 System.out.println(num + " is a prime number");
-                return false;
+                return true;
             }
         }
 
