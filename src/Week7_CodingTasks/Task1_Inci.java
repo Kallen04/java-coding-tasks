@@ -4,7 +4,7 @@ public class Task1_Inci {
 
     /*
     Question1: Array - Find Minimum
-Write a method that can find the maximum number from an int Array.
+Write a method that can find the minimum number from an int Array.
      */
 
     public static int findMinimumNumber(int[] arr) {
@@ -20,7 +20,7 @@ Write a method that can find the maximum number from an int Array.
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 7, 9, 3,-1};
         int minNumber = findMinimumNumber(arr);
-        System.out.println("The maximum number in the array is: " + minNumber);
+        System.out.println("The minimum number in the array is: " + minNumber);
     }
 }
 
