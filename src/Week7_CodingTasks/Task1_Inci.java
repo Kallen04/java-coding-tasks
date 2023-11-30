@@ -4,7 +4,7 @@ public class Task1_Inci {
 
     /*
     Question1: Array - Find Minimum
-Write a method that can find the maximum number from an int Array
+Write a method that can find the maximum number from an int Array.
      */
 
     public static int findMinimumNumber(int[] arr) {
