@@ -18,7 +18,7 @@ public class Task3_SumOfDigits_Eve {
             if (Character.isDigit(each)) {
                 // Add the digit to the sum
                 sum +=  Integer.valueOf(""+each);
-// sum += Character.getNumericValue(c);
+// sum += Character.getNumericValue(each);
             }
         }
 
