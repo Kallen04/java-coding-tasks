@@ -1,9 +1,17 @@
 package Week6_CodingTasks;
 
+import java.util.Scanner;
+
 public class Task1_Kristine {
 
     public static void main(String[] args) {
-        System.out.println("isValidPassword? = " + isValidPassword("Panorama1!"));
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter password:");
+        String password = input.nextLine();
+
+        System.out.println( ((isValidPassword(password))?"Password is valid":"Invalid password"));
+
     }
 
     /*
@@ -43,6 +51,7 @@ requirements:
                 digit++;
             }
         }
+
 
         if(password.length() >=6 && !password.contains(" ") && lower >= 1 && upper >=1 && special >=1 && digit >=1){
             isValid = true;
