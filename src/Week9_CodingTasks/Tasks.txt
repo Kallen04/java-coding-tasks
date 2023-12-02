@@ -1,0 +1,19 @@
+TASK1
+
+1) Array - Concat two arrays
+Write a return method that can concate two arrays
+
+==============================================================
+
+TASK2
+
+2) ArrayList - Remove "Ahmed"
+Given a list of people' names: "Ahmed", "John", Eric", "Ahmed".....
+Write a java operation to remove all the names named Ahmed
+
+==============================================================
+
+TASK3
+
+3) ArrayList - Remove some values
+Given a list of Integers 1, 2, 3, 4, 5, 6 ....etc. remove all values greater than 100.
