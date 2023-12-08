@@ -1,7 +1,6 @@
 package Week3_CodingTasks;
 
 import java.util.Scanner;
-
 public class TASK1_Ken {
 
     // Find a prime number
@@ -25,7 +24,7 @@ public class TASK1_Ken {
         int reminderCount = 0;
 
         // num should be > 1
-        // Check how many times num can divide a number i and have 0 reminder
+        // Check how many times num can divide number i and have 0 reminder
 
         if (num > 1){
             for (int i = 1; i <= num; i++){
