@@ -15,7 +15,7 @@ public class Task2_Mahbuba {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 5, -1, 8, 1, 9};
+        int[] arr = {2, 5, -1, 12, 1, 9};
         System.err.println(("Maximum number is: " + findMaxArray(arr)));
     }
 
