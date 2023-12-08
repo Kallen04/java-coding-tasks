@@ -11,12 +11,12 @@ public class Task1_Ken {
 
     public static void main(String[] args) {
 
-        // Get user input1.
+        // Get user input1
         Scanner input =new Scanner(System.in);
         System.out.println("Please Enter anything as array1: ");
         String input1 = input.nextLine();
 
-        // Get user input2.
+        // Get user input2
         System.out.println("Please Enter anything as array2: ");
         String input2 = input.nextLine();
 
